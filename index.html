@@ -72,3 +72,77 @@
     </footer>
 </body>
 </html>
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron Kriss - Engineering Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Aaron Kriss</h1>
+        <p>Engineering Portfolio</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my portfolio! I am an engineer passionate about designing, prototyping, and problem-solving. Explore my projects below.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Custom Rubik's Cubes</h3>
+            <p>Two custom Rubik’s cubes: one designed to break the world record for smallest functional cube (4.5mm), and another engineered to rival high-end speedcubes with advanced magnet systems. Both involved intensive CAD design, prototyping, and material research.</p>
+            <a href="#rubiks-project">Read more</a>
+        </div>
+        <div class="project">
+            <h3>Project Title 2</h3>
+            <p>Short description of the project.</p>
+        </div>
+    </section>
+
+    <section id="rubiks-project">
+        <h2>Rubik’s Cube Design Journey</h2>
+
+        <h3>The World’s Smallest Rubik’s Cube Attempt</h3>
+        <p>I began this project aiming to break the world record for the smallest functional Rubik’s cube, which stood at 5.6mm. With rapid advancements in 3D printing, a 5mm cube seemed achievable. I modeled it in SolidWorks, engineering a unique snapping mechanism small enough to hold the centers onto a spherical core—no screws or springs involved.</p>
+        <p>After researching material properties and tolerances, I designed prongs under 0.2mm wide, capable of flexing during assembly but rigid enough to stay in place. Printing quotes ranged from $350 to $2500, so I tested a scaled-up PLA version on an FDM printer. The first prototype failed due to loose tolerances, so I rebuilt it from scratch with adjustable spacing. Through iteration, I found that zero clearance between parts performed best.</p>
+        <p>Once the design was functional, I adapted it for a high-stiffness resin and contacted a university lab with a suitable micro-printer. But before the print could be made, Rubik’s released a 5mm cube commercially. Discouraged, I downsized my cube to 4.5mm but never printed it. The record was gone.</p>
+
+        <h3>From Small to Fast: The Custom Speedcube</h3>
+        <p>Still motivated, I pivoted to creating a high-performance speedcube. With full 3D printer access and no constraints, I redesigned the cube using magnets, springs, and screws. I studied commercial cubes, extracting the best features into a custom design. Early FDM prototypes, printed with a 0.2mm nozzle and 0.06mm layer height, felt great—textured surfaces even improved lube retention.</p>
+        <p>The main issue became surface imperfections from support structures. I experimented with part orientation, support settings, and interface distances. After many iterations, I found a setup that minimized visible flaws and preserved internal mechanics. I printed and refined the model dozens of times until it felt right.</p>
+
+        <h3>Key Innovations and Features</h3>
+        <p>This project involved solving challenges across multiple design fronts—from precision geometry and flexural snap-fit mechanics to optimizing part tolerances for different materials. Careful attention was paid to print orientation, support strategy, and functional resilience in both scaled and full-size versions.</p>
+
+        <p>One notable aspect was the development of a modern magnet system to compete with high-end speedcubes:</p>
+        <ul>
+            <li><strong>Edge-Corner Magnets:</strong> Installed during printing (2 per edge, 3 per corner, 48 total) to enhance alignment and control.</li>
+            <li><strong>Piece-Core Magnets:</strong> Inserted post-print into sockets to stabilize corners and edges (40 total).</li>
+            <li><strong>Maglev System:</strong> Ring magnets replace springs, creating smooth, low-friction tensioning.</li>
+        </ul>
+
+        <p>These systems were just one part of a larger mechanical design that required iteration, testing, and optimization. The end result was a high-performing, completely custom cube—built from the ground up to meet both speedcubing and micro-scale engineering goals.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out via email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Aaron Kriss. All rights reserved.</p>
+    </footer>
+</body>
+</html>
